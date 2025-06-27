@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" type="text/css" href="atv_dropdown/estilo_cliente.css" media="all" />
+</head>
+
+<body margin="0">
+    <ul>
+        <li><a href="inicio.html"> Início </a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Cadastrar </a>
+            <div class="dropdown-content">
+                <a href="formulario_sa_rafaela_joaquim.html"> Doador </a>
+                <a href="ATV03_Formulario_Heloisa_Silva.html"> Produto </a>
+                <a href="atv_form_sa.html"> Cliente </a>
+                <a href="atv_form_sa_funcionario.html"> Funcionário </a>
+        </li>
+    </ul>
+
+    <br>
+
+    <form method="post" action="#formulário">
+    <table align="center">
+        <tr>
+            <td><img src="atv_dropdown/logo_ong.png" alt="Ong-Arco-Íris" width="150" height="150"></td>
+            <th colspan="3"> Cadastro do Cliente</th>
+        </tr>
+
+        <tr>
+            <th colspan="3"> ------------------------------------ Dados do Cliente ------------------------------------  <br><br></th>
+        </tr>
+
+        <tr>
+            <td>Nome: </td>
+            <td>CPF: </td>
+            <td>Data de nascimento: </td>
+        </tr> 
+
+        <tr>
+            <td><input type="text" name="nome" required/></td>
+            <td><input type="text" name="cpf" required/></td>
+            <td><input type="date" name="data_nascimento" required/></td>
+        </tr>  
+
+        <tr>
+            <td>Sexo:: </td>
+            <td>RG: </td>
+            <td>Escolaridade: </td>
+        </tr>
+
+        <tr>
+            <td>
+                <select name="sexo" class="custom-select" required>
+                    <option disabled selected>Selecione</option>
+                    <option >Feminino</option>
+                    <option >Masculino</option>
+                    <option >Prefiro não falar</option>
+                    <option >Outro</option>
+                </select>
+            </td>
+            <td><input type="text" name="rg" required/></td>
+            <td>
+                <select name="escolaridade" class="custom-select" required>
+                    <option disabled selected>Selecione</option>
+                    <option>Educação Infantil</option>
+                    <option>Ensino Fundamental I</option>
+                    <option>Ensino Fundamental II</option>
+                    <option>Ensino Médio</option>
+                    <option>Ensino Superior</option>
+                    <option>Pós-Graduação</option>
+                    <option>Mestrado</option>
+                    <option>Doutorado</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="3"><br>  ------------------------------------ Meios de Contato ------------------------------------  <br></th>
+        </tr>
+
+        <tr>
+            <td>Rede Social (opcional): </td>
+            <td>Email: </td>
+            <td>Telefone: </td>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="rede social" /></td>
+            <td><input type="email" name="email" required/></td>
+            <td><input type="text" name="telefone" required/></td>
+        </tr> 
+
+        <tr>
+            <th colspan="3"><br>  ------------------------------------ Endereço ------------------------------------  <br></th>
+        </tr>
+
+        <tr>
+            <td>CEP: </td>
+            <td>Estado: </td>
+            <td>Cidade: </td>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="cep" required /></td>
+            <td><input type="text" name="estado" required /></td>
+            <td><input type="text" name="cidade" required /></td>
+        </tr> 
+
+        <tr>
+            <td>Bairro:</td>
+            <td>Rua:</td>
+            <td>Número da casa:</td>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="bairro" required /></td>
+            <td><input type="text" name="rua" required /></td>
+            <td><input type="number" name="numero" required /></td>
+        </tr>
+
+        <tr> 
+            <td colspan="3"><br><input type="reset" ="resetar" etar"/>
+            <input type="submit" ="salvar" var"/></td>
+        </tr>
+    </table>
+
+    <br>
+   <center>
+    <address>
+            Bruno Ribeiro / Estudante / Técnico em desenvolvimento de sistemas
+    </address>
+   </center>
+</form>
+</body>
+</html>
