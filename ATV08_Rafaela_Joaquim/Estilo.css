@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: yellow;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+}
+
+.menu {
+    background-color: lightblue;
+    width: 30%;
+    padding: 20px;
+    border:  1px solid black;
+}
+
+.conteudo {
+    background-color: salmon;
+    width: 70%;
+    border:  1px solid black;
+}
+
+footer {
+    background-color: #006400;
+    height: 49px;
+    border: 1px solid black;
+}
